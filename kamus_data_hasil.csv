@@ -1,0 +1,12 @@
+Nama Kolom,Tipe Data Sistem,Jumlah Missing Value,Persentase Missing (%),Jumlah Nilai Unik,Sampel Nilai
+order_id,object,0,0.0,10,"['ORD001', 'ORD002', 'ORD003']"
+customer_id,object,0,0.0,10,"['C001', 'C002', 'C003']"
+order_date,datetime64[ns],0,0.0,6,"['2026-09-25', '2026-09-26', '2026-09-26']"
+total_amount,int64,0,0.0,10,"['150000', '225000', '175000']"
+coupon_code,object,4,40.0,1,"['AKHIRBULAN', 'AKHIRBULAN', 'AKHIRBULAN']"
+customer_name,object,1,10.0,9,"['Andi', 'Budi', 'Citra']"
+membership_level,object,1,10.0,3,"['Gold', 'Silver', 'Platinum']"
+is_active,float64,1,10.0,1,"['1.0', '1.0', '1.0']"
+courier,object,3,30.0,4,"['JNE', 'SiCepat', 'J&T']"
+tracking_number,object,3,30.0,7,"['JNE001', 'SCP002', 'JNT003']"
+shipping_status,object,3,30.0,2,"['Delivered', 'In Transit', 'Delivered']"
